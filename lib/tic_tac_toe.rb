@@ -98,4 +98,5 @@ def play
     puts "Congratuations, #{winner(board)}!"
   else
     puts "The game was a draw."
+  end
 end
