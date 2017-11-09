@@ -89,7 +89,7 @@ def winner(board)
 end
 
 def play(board)
-  
+
   while !over?(board)
     turn(board)
     break if draw?(board)
