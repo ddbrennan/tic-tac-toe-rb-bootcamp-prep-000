@@ -89,9 +89,9 @@ def winner(board)
 end
 
 def play
-  board =
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   until over?(board)
-    take turns
+    break
   end
 
   if won?(board)
