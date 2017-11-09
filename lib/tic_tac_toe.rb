@@ -91,7 +91,7 @@ end
 def play
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   until over?(board)
-    board = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
+    turn(board)
   end
 
   if won?(board)
